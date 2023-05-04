@@ -15,7 +15,6 @@ const studentsSchema  =  new mongoose.Schema({
     email:{
         type:String
     }
-
 },
 {
     timestamps:true
