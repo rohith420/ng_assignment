@@ -26,8 +26,7 @@ module.exports.updateStudent = async (req,res)=>{
     const filterQuery = {_id:req.params.id}
     const updatingData =await updateStudent(
         filterQuery,{...req.body}
-    )
-    
+    )   
     res.send("Data Updated Successfully")
 }
 

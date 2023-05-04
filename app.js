@@ -15,5 +15,4 @@ const connect = ()=>{
 require('./MainRoutes')(app)
 app.listen(2000,()=>{
     connect()
-console.log("listening")
 })
